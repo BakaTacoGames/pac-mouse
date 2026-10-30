@@ -1,9 +1,8 @@
-// Function to change the volume of the audio
 function changeVolume(volume) {
     var audio = document.getElementById('bg-music');
     var volumeLabel = document.getElementById('volume-label');
     audio.volume = volume;
-    var volumePercentage = Math.round(volume * 100); // Convert volume to percentage
+    var volumePercentage = Math.round(volume * 100);
     volumeLabel.textContent = volumePercentage + '%';
 }
 
