@@ -28,23 +28,23 @@ header {
 /* Modern Nav */
 nav {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    height: auto; /* Allow the nav height to adjust based on content */
-    padding: 10px 20px; /* Add padding to the nav */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 20px;
 }
 
 nav a {
-    margin: 5px; /* Adjust margin for spacing */
-    padding: 10px 15px; /* Add padding */
-    color: #fff; /* Text color */
-    text-decoration: none; /* Remove underline */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Font weight */
-    border-radius: 5px; /* Add border radius */
-    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
-    white-space: nowrap; /* Prevent text from wrapping */
+    margin: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    white-space: nowrap;
 }
 
 body.dark-mode {
